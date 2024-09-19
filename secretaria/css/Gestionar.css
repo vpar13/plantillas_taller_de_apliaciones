@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.option{
+   
+    width: 100%;
+    background-color: red;
+    font-size: 21px;
+    margin: 10px;
+    text-align: center;
+}
+
+.option:hover{
+    background-color: blue;
+    width: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 160px;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+}
+
+.container{
+    display:flex;
+}
+.titulo{
+    color: antiquewhite;
+}
+
+
+/* ------------------------------------------------------------- */
+
+.buscador{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 60px;
+}
+
+input{
+    
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.content-result{
+   display: flex;
+   justify-content: center;
+    
+    }
+    
+.resultado{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
+.result-data{
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+}
+
+#editBtn{
+    background-color: #252cf6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.editar{
+    display: flex;
+    flex-direction: row-reverse;
+}
