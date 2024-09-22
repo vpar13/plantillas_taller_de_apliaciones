@@ -1,0 +1,15 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 100px;
+    border:solid 1px #000000;
+    display: flex;
+}
+
+nav{
+    list-style-type: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.cuerpo{}

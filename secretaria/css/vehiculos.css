@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .menu{
     display: flex;
     flex-direction: column;
@@ -44,6 +45,8 @@ nav{
 
 .container{
     display:flex;
+    
+
 }
 .titulo{
     color: antiquewhite;
@@ -69,6 +72,7 @@ nav{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left: 160px;
     height: 100vh;
 }
 
@@ -99,3 +103,41 @@ button[type="submit"] {
     cursor: pointer;
 }
 
+
+/* Estilos para la tabla */
+table {
+    width: 1000px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 215px;
+    font-size: 12px;
+    text-align: left;
+    
+}
+
+/* Estilos para las celdas del encabezado */
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para el encabezado */
+thead th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos para las filas */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilos para las celdas */
+td {
+    color: #555;
+}
