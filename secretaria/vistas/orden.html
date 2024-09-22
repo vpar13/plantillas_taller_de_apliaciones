@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/orden.css">
     <title>Document</title>
+    <link rel="stylesheet" href="/secretaria/css/orden.css">
 </head>
 <body>
     <div class="container">
  
         <nav>
             <div class="perfil">
-                <img src="../assets/icons8-user-100.png" alt="">
+                <img src="../secretaria/assets/icons8-user-100.png" alt="">
                 <h2 class="titulo">juan perez</h2>
             </div>
             <ul class="menu">
@@ -19,22 +19,42 @@
                 <li class="option"><a href="../vistas/Gestionar.html">Gestionar Clientes</a></li>
                 <li class="option"><a href="../vistas/vehiculos.html">Crear Vehiculos</a></li>
                 <li class="option"><a href="../vistas/GestionarV.html">Gestionar vehiculos</a></li>
+                <li class="option"><a href="../vistas/orden.html">Crear Orden</a></li>
             </ul>
         </nav>
     </div>
-
-    
     <div class="content-secretaria">
+       
+        
         <form action="" class="form-cliente">
-            <h2 class="crea">Crea Orden de trabajo</h2>
-            <label for="">Codigo</label>
-            <input type="text" placeholder="Codigo">
-            <label for="">Nombre</label>
-            <input type="text" placeholder="Nombre">
-            <label for="">Apellido</label>
-            <input type="text" placeholder="Apellido">
-            <label for="">Número de telefono</label>
-            <input type="text" placeholder="Número de telefono">
+            <h2 class="crea">Orden de trabajo</h2>
+            <label for="">Fecha de inicio</label>
+            <input type="date" placeholder="Ingrese fecha">
+            <label for="">Fecha de termino</label>
+            <input type="date" placeholder="Ingrese fecha">
+            <label for="">Informacion del Vehiculo</label>
+            <input type="text" placeholder="Ingrese informacion del vehiculo">
+            <label for="">Observaciones</label>
+            <input type="text" placeholder="Observaciones">
+            <label for="">Patente del vehiculo</label>
+            <input type="text" placeholder="Patente">
+
+            <label for="">Reparaciones</label> 
+                <select name="codigo" id="codigo">
+                    <option value="codigo1">Código 1</option>
+                    <option value="codigo2">Código 2</option>
+                    <option value="codigo3">Código 3</option>
+                </select>
+
+                <select name="reparaciones" id="reparaciones">
+                    <option value="reparacion1">Reparación 1</option>
+                    <option value="reparacion2">Reparación 2</option>
+                    <option value="reparacion3">Reparación 3</option>
+                </select>
+
+                <label for="">Valor</label>
+            <input type="text" placeholder="Valor total">
+
             <button type="submit">Enviar</button>
         </form>
     </div>
