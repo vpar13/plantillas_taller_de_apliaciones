@@ -1,15 +1,161 @@
-body{
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    margin: 100px;
-    border:solid 1px #000000;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.perfil{
+    padding-left: 40px;
+    
+
+}
+
+.menu{
     display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+   
+}
+
+.option{
+   
+    width: 110px;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.option:hover{
+    width: 110px;
+    background-color: rgb(168, 168, 168);
+    font-size: 17px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 nav{
-    list-style-type: none;
-    color: #ffffff;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 180px;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(38, 151, 216);
 }
 
-.cuerpo{}
+.container{
+    display:flex;
+    
+
+}
+.titulo{
+    color: rgb(255, 255, 255);
+    padding-right: 19.5px;
+}
+    
+/* ----------------------------------------------------------------------------- */
+
+.form-cliente{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:600px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+
+    
+
+}
+
+.content-secretaria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 160px;
+    height: 100vh;
+}
+
+input{
+    
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.crea{
+    color: black;
+    padding-bottom: 40px;
+}
+
+button[type="submit"] {
+    background-color: #8a8a8a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* Estilos para la tabla */
+table {
+    width: 1000px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 215px;
+    font-size: 12px;
+    text-align: left;
+    
+}
+
+/* Estilos para las celdas del encabezado */
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para el encabezado */
+thead th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos para las filas */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilos para las celdas */
+td {
+    color: #555;
+}

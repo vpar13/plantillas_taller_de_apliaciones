@@ -11,7 +11,7 @@
  
         <nav>
             <div class="perfil">
-                <img src="../secretaria/assets/icons8-user-100.png" alt="">
+                <img src="../assets/icons8-user-100.png" alt="">
                 <h2 class="titulo">juan perez</h2>
             </div>
             <ul class="menu">
@@ -39,20 +39,21 @@
             <label for="">Patente del vehiculo</label>
             <input type="text" placeholder="Patente">
 
-            <label for="">Reparaciones</label> 
-                <select name="codigo" id="codigo">
-                    <option value="codigo1">Código 1</option>
-                    <option value="codigo2">Código 2</option>
-                    <option value="codigo3">Código 3</option>
-                </select>
-
-                <select name="reparaciones" id="reparaciones">
-                    <option value="reparacion1">Reparación 1</option>
-                    <option value="reparacion2">Reparación 2</option>
-                    <option value="reparacion3">Reparación 3</option>
-                </select>
-
-                <label for="">Valor</label>
+                <label for="">Reparaciones</label> 
+                <div class="contenedor-selects">
+                    <select class="desplegable" name="codigo" id="codigo">
+                        <option value="codigo1">01</option>
+                        <option value="codigo2">02</option>
+                        <option value="codigo3">03</option>
+                    </select>
+                
+                    <select class="desplegable" name="reparaciones" id="reparaciones">
+                        <option value="reparacion1">Cambio de aceite</option>
+                        <option value="reparacion2">Nivelacion</option>
+                        <option value="reparacion3">Ajuste de frenos</option>
+                    </select>
+                </div>
+            <label for="">Valor</label>
             <input type="text" placeholder="Valor total">
 
             <button type="submit">Enviar</button>

@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 
@@ -15,20 +17,26 @@
 
 .option{
    
-    width: 100%;
-    background-color: red;
-    font-size: 21px;
+    width: 110px;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
     margin: 10px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .option:hover{
-    background-color: blue;
-    width: 100%;
+    width: 110px;
+    background-color: rgb(168, 168, 168);
+    font-size: 17px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
 }
 
 a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -37,10 +45,11 @@ nav{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 160px;
+
+    width: 180px;
     height: 100vh;
     position: fixed;
-    background-color: black;
+    background-color: rgb(38, 151, 216);
 }
 
 .container{
@@ -59,11 +68,12 @@ nav{
     flex-direction: column;
     width:600px;
     max-width: 400px;
+    height: 430px;
     margin: 0 auto;
     padding: 60px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.486);
 
 }
 
@@ -95,7 +105,7 @@ label {
 }
 
 button[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #8a8a8a;
     color: #fff;
     padding: 10px 20px;
     border: none;
